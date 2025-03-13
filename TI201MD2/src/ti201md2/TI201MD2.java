@@ -1,20 +1,16 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+* ITESS-TICS MATEMATICAS DISCRETAS 2
+* Profesor: Francisco Javier Montecillo Puente
+* Periodo: Enero-Junio 2025
+* Programador: FJMP
+* Descripsión: Repaso de programacion en JAVA
+* 06-febrero-2025
+*/
+
 package ti201md2;
 
-/**
- *
- * @author TICS03
- */
 public class TI201MD2 {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+         System.out.println("Hola Mundo");
     }
-    
 }
