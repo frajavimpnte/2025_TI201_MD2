@@ -15,6 +15,21 @@ public class GrafoTest {
         
         System.out.println("test grado:::::::");
         testGrado();
+        
+        System.out.println("test Dijkstra::::");
+        GrafoTest.testDijkstra();
+        
+    }
+    
+    public static void testDijkstra() {
+       int[] vertices = {1,2,3,4,5,6};
+       int[][] aristas ={{1,2}, {1,3}, {2,4}, {2,5}, {3,5}, 
+           {4,5}, {4,6}, {5,6}};
+       int[] pesos = {3, 4, 6, 5, 1, 2, 7, 12};
+       
+       GrafoPonderado g = new GrafoPonderado(vertices, aristas, pesos);
+       System.out.println("g: " + g.toString());
+       g.dijkstra(1, 6);
     }
     
     public static void testGrafo() {

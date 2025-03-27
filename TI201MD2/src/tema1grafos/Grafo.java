@@ -12,8 +12,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Grafo {
-    List<Integer> v;
-    List< List<Integer>> e;
+    protected List<Integer> v;
+    protected List< List<Integer>> e;
     
     public Grafo() {
         v = new ArrayList<>();
